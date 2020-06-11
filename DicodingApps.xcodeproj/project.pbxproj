@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048783082491A760000D3176 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048783072491A760000D3176 /* DetailViewController.swift */; };
+		0487830A2491A79C000D3176 /* AcademiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048783092491A79C000D3176 /* AcademiesViewController.swift */; };
+		0487830C2491A7BB000D3176 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487830B2491A7BB000D3176 /* ChallengesViewController.swift */; };
+		0487830E2491A7CB000D3176 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487830D2491A7CB000D3176 /* ProfileViewController.swift */; };
 		04F6F91B249149C900B1BF7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6F91A249149C900B1BF7C /* AppDelegate.swift */; };
 		04F6F91D249149C900B1BF7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6F91C249149C900B1BF7C /* SceneDelegate.swift */; };
 		04F6F91F249149C900B1BF7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6F91E249149C900B1BF7C /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048783072491A760000D3176 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		048783092491A79C000D3176 /* AcademiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiesViewController.swift; sourceTree = "<group>"; };
+		0487830B2491A7BB000D3176 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
+		0487830D2491A7CB000D3176 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		04F6F917249149C900B1BF7C /* DicodingApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicodingApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F6F91A249149C900B1BF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F6F91C249149C900B1BF7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +64,13 @@
 		04F6F919249149C900B1BF7C /* DicodingApps */ = {
 			isa = PBXGroup;
 			children = (
+				04F6F91E249149C900B1BF7C /* ViewController.swift */,
+				048783072491A760000D3176 /* DetailViewController.swift */,
+				048783092491A79C000D3176 /* AcademiesViewController.swift */,
+				0487830B2491A7BB000D3176 /* ChallengesViewController.swift */,
+				0487830D2491A7CB000D3176 /* ProfileViewController.swift */,
 				04F6F91A249149C900B1BF7C /* AppDelegate.swift */,
 				04F6F91C249149C900B1BF7C /* SceneDelegate.swift */,
-				04F6F91E249149C900B1BF7C /* ViewController.swift */,
 				04F6F920249149C900B1BF7C /* Main.storyboard */,
 				04F6F923249149CC00B1BF7C /* Assets.xcassets */,
 				04F6F925249149CC00B1BF7C /* LaunchScreen.storyboard */,
@@ -140,7 +152,11 @@
 			files = (
 				04F6F91F249149C900B1BF7C /* ViewController.swift in Sources */,
 				04F6F91B249149C900B1BF7C /* AppDelegate.swift in Sources */,
+				0487830A2491A79C000D3176 /* AcademiesViewController.swift in Sources */,
 				04F6F91D249149C900B1BF7C /* SceneDelegate.swift in Sources */,
+				0487830E2491A7CB000D3176 /* ProfileViewController.swift in Sources */,
+				0487830C2491A7BB000D3176 /* ChallengesViewController.swift in Sources */,
+				048783082491A760000D3176 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DicodingApps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DicodingApps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
